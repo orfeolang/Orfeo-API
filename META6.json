@@ -1,0 +1,30 @@
+{
+    "auth": "zef:pelevesque",
+    "authors": [
+        "Pierre-Emmanuel Lévesque <pierre.e.levesque@gmail.com>"
+    ],
+    "build-depends": [
+    ],
+    "depends": [
+        "HTTP::Tiny",
+        "JSON::Tiny"
+    ],
+    "description": "A Raku module to consume Orfeo's REST API.",
+    "license": "MIT",
+    "name": "Orfeo::API",
+    "provides": {
+        "Orfeo::API": "lib/Orfeo/API.rakumod"
+    },
+    "raku": "6.d",
+    "source-url": "git://github.com/orfeolang/api-consumer-raku.git",
+    "tags": [
+        "Orfeo",
+        "music",
+        "programming",
+        "language",
+        "API"
+    ],
+    "test-depends": [
+    ],
+    "version": "0.0.0"
+}
